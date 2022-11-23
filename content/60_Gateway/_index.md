@@ -17,9 +17,9 @@ You will mount the Storage Gateway share on the Application server to validate a
 
 #### 1. Activate the Storage Gateway in the same AWS region where the stack named ```DataMigrationWorkshop-inCloudResources``` was deployed.
 
-Although the agent instance was created in the **DataMigrationWorkshop-onPremResources** template, before it can be used it needs to be activated. Follow the steps below to active the agent.
+Although the agent instance was created in the **DataMigrationWorkshop-onPremResources** template, before it can be used it needs to be activated. 
 
-- Ensure you are in the AWS region ```us-east-2```.
+Follow the steps below to active the agent:
 
 - Go to the AWS Management console page navigate to **AWS Storage Gateway**.
 
@@ -29,9 +29,11 @@ Although the agent instance was created in the **DataMigrationWorkshop-onPremRes
 
 - Gateway TimeZone: **Select your timezone**.
 
-- Gateway Option Type: **Amazon S3 File Gateway**
+- Gateway Option Type: **Amazon S3 File Gateway**.
 
-- Host Platform: **Amazon EC2**  
+- Host Platform: **Amazon EC2**.
+
+- Launch EC2 Instance: Select **Customize your settings**. 
 
 - Check Box to confirm gateway set up.
 

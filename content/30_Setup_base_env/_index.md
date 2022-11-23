@@ -11,15 +11,16 @@ pre: "<b>3. </b>"
 
 As shown in the architecture diagram below, the first template will create an NFS server, an Application server, and a DataSync agent, and a File Gateway appliance will be deployed in an AWS region simulating the on-premises environment.
 
+![TrendMicro](/images/on-prem-diag.png)
 
 ---
 
+
 #### 1. Launch the CloudFormation template provided below to create our Mock On-Premises infrastructure in a new browser tab.
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=DataMigrationWorkshop-onPremResources&templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/on-premise-datamigration-workshop.yaml)
+<a target="_blank" href="https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=DataMigrationWorkshop-onPremResources&amp;templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/on-premise-datamigration-workshop.yaml"><img alt="Launch Stack" src="https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg"></a>
 
 - This will automatically redirect to the AWS CloudFormation create stack page.
-- Ensure AWS region is ```us-east-1```.
 - Click **Next** on the Create Stack page.
 
 ![TrendMicro](/images/op1.png)
@@ -54,8 +55,9 @@ While the CloudFormation deployment progresses in the on-premises region, you ca
 
 ## Cloud Infrastructure
 
-**This template will be deployed in an alternative region(us-east-2). It will create an S3 bucket to simulate the AWS cloud region to which the NFS server’s data will be migrated.**
+**This template will create an S3 bucket to simulate the AWS cloud region to which the NFS server’s data will be migrated.**
 
+![TrendMicro](/images/bucket.png)
 
 ---
 
@@ -121,12 +123,11 @@ You can also check out the Conformity Knowledge Base, which can help you better 
 ## 1.* Launch the CloudFormation template provided below to create our Cloud Infrastructure
 
 {{% notice tip %}}
-The below template creates an ENCRYPTION bucket using SSE-S3. **This template is for thse who do not have a Conformity account or IDE to edit code.**
+The below template creates an ENCRYPTED bucket using SSE-S3. **This template is for thse who do not have a Conformity account or IDE to edit code.**
 {{% /notice %}}
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=DataMigrationWorkshop-inCloudResources&templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/encrytped-s3-datamigration-workshop.yaml)
+<a target="_blank" href="https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=DataMigrationWorkshop-inCloudResources&amp;templateURL=https://aws-workshop-c1as-cft-templates.s3.amazonaws.com/encrytped-s3-datamigration-workshop.yaml"><img alt="Launch Stack" src="https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg"></a>
 
-- Ensure AWS region is ```us-east-2```
 - Click **Next** on the Create Stack page.
 
 ![TrendMicro](/images/cc1.png)

@@ -38,7 +38,9 @@ Let's deploy Cloud One - File Storage Security to our AWS Account.
 
 ---
 
-**6.** Select the AWS region that the CloudFormation stack named ```DataMigrationWorkshop-inCloudResources``` and click on **Launch Stack**. This should be deployed in AWS region ```us-east-2```.
+**6.** Select the AWS region that the CloudFormation stack named ```DataMigrationWorkshop-inCloudResources```. 
+- The default selection is AWS region ```us-east-1```.
+- Click on **Launch Stack**.
 
 This will redirect you to your AWS account in the region that you choose to deploy the stack. Make sure that you’re logged in and have the correct permissions – you can check the details of the permissions required in the Requirements section.
 
@@ -62,7 +64,7 @@ You can validate the CloudFormation Template by clicking in ```Review Stack```. 
 
 ![Diagram](/images/output-cloud1.png)
 
-- •	It also supports different parameters to customize your installation, like Resource prefixes and optional KMS integration. For more details about these configurations check our <a href="https://cloudone.trendmicro.com/docs/file-storage-security/gs-deploy-all-in-one-stack/">Documentation</a>.
+- It also supports different parameters to customize your installation, like Resource prefixes and optional KMS integration. For more details about these configurations check our <a href="https://cloudone.trendmicro.com/docs/file-storage-security/gs-deploy-all-in-one-stack/">Documentation</a>.
 
 - After adding the bucket name you will need to acknowledge and click on <b>"Create Stack"</b>
 

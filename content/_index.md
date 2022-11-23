@@ -16,20 +16,20 @@ Learn by implementing **Trend Micro - Cloud One File Security** for data migrati
 
 ## Workshop structure Agenda 
 
-The workshop is divided into the sections listed below. Plan on 1 hour to complete the full workshop.
+The workshop is divided into the sections listed below. Plan on 1-2 hours to complete the full workshop.
 
 
 <span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 1. Introduction (10 minutes)</b> 
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 3. Prerequisites (15 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 2. Prerequisites (10 minutes)</b>
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 4. Deploying Environment (10 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 3. Deploying Environment (20 minutes)</b>
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 5. Integrating File Storage Security (15 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 4. Integrating File Storage Security (15 minutes)</b>
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 6. Migrate Objects to S3 (15 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 5. Migrate Objects to S3 (10 minutes)</b>
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 7. Access S3 Objects with Storage Gateway (15 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 6. Access S3 Objects with Storage Gateway (10 minutes)</b>
 
 --------
 
