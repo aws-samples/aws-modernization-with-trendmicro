@@ -7,11 +7,11 @@ pre: "<b>4.1 </b>"
 
 ### Prerequisites
 
-Continue to deploy S3 buckets and the File Storage Security quarantine plugin in AWS region ```us-east-2```. 
+Continue to deploy S3 buckets and the File Storage Security quarantine plugin in the same AWS region used before. 
 
-**1.** **Create an Amazon S3 bucket**
+**1.** **For this workflow, we will need to create an Amazon S3 bucket**
 
-- Create a 'Quarantine bucket' to receive quarantined files. Example: `fss-quarantine`.
+- Create a 'Quarantine bucket' to receive quarantined files when detected. Example: `fss-quarantine`.
 
 {{% notice warning %}}
 <p style='text-align: left;'>
@@ -20,7 +20,7 @@ Remember that S3 buckets are a unique name globally for all AWS customers. If yo
 {{% /notice %}}
 
 
-**2.** **Find the 'ScanResultTopic' SNS topic ARN**
+**2.** **Locate the 'ScanResultTopic' SNS topic ARN. This is needed to deploy the plugin**
 
 - In the AWS console, go to **Services > CloudFormation** > your all-in-one stack > **Resources** > your storage stack > **Resources**.
 - Scroll down to locate the  **ScanResultTopic** Logical ID.
@@ -38,7 +38,7 @@ In this case, let's use the Serverless Application Repository
 2. Fill in the parameters:
     * ScanResultTopic
     * ScanningBucketName
-    * **PromoteBucketName(Ignore)**
+    * **PromoteBucketName(Ignore and leave blank. We will not be using this for our workflow)**
     * QuarantineBucketName
     * Optionally, you can customize the name of the Cloud Formation stack that will be created
 3. Check the `I acknowledge that this app creates custom IAM roles.` checkbox.

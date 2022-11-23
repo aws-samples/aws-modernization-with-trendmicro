@@ -17,9 +17,9 @@ You will mount the Storage Gateway share on the Application server to validate a
 
 #### 1. Activate the Storage Gateway in the same AWS region where the stack named ```DataMigrationWorkshop-inCloudResources``` was deployed.
 
-Although the agent instance was created in the **DataMigrationWorkshop-onPremResources** template, before it can be used it needs to be activated. Follow the steps below to active the agent.
+Although the agent instance was created in the **DataMigrationWorkshop-onPremResources** template, before it can be used it needs to be activated. 
 
-- Ensure you are in the AWS region ```us-east-2```.
+Follow the steps below to active the agent:
 
 - Go to the AWS Management console page navigate to **AWS Storage Gateway**.
 

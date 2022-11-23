@@ -19,9 +19,9 @@ We will focus on migration to AWS S3.
 
 #### 1. Activate the DataSync agent in the same AWS region where the stack named ```DataMigrationWorkshop-inCloudResources``` was deployed.
 
-Although the agent instance was created in the **DataMigrationWorkshop-onPremResources** template, before it can be used it needs to be activated. Follow the steps below to activate the agent.
+Although the agent instance was created in the **DataMigrationWorkshop-onPremResources** template, before it can be used it needs to be activated. 
 
-- Ensure you are in the AWS region ```us-east-2```.
+Follow the steps below to activate the agent:
 
 - Go to the AWS Management console page navigate to **AWS DataSync**.
 
