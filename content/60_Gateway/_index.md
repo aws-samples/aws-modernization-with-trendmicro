@@ -29,9 +29,11 @@ Follow the steps below to active the agent:
 
 - Gateway TimeZone: **Select your timezone**.
 
-- Gateway Option Type: **Amazon S3 File Gateway**
+- Gateway Option Type: **Amazon S3 File Gateway**.
 
-- Host Platform: **Amazon EC2**  
+- Host Platform: **Amazon EC2**.
+
+- Launch EC2 Instance: Select **Customize your settings**. 
 
 - Check Box to confirm gateway set up.
 

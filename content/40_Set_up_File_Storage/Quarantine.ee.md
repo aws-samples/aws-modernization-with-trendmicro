@@ -34,7 +34,8 @@ Remember that S3 buckets are a unique name globally for all AWS customers. If yo
 
 In this case, let's use the Serverless Application Repository
 
-1. Visit [the app's page on the AWS Lambda Console](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/create/app?applicationId=arn:aws:serverlessrepo:us-east-1:415485722356:applications/cloudone-filestorage-plugin-action-promote-or-quarantine).
+1. <a target="_blank" href="https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/create/app?applicationId=arn:aws:serverlessrepo:us-east-1:415485722356:applications/cloudone-filestorage-plugin-action-promote-or-quarantine">Visit the app's page on the AWS Lambda Console</a>
+
 2. Fill in the parameters:
     * ScanResultTopic
     * ScanningBucketName
